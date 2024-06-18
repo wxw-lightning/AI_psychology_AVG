@@ -1,0 +1,49 @@
+
+@back bg1
+@bgm 
+# Day1
+
+Day1：出生
+殷夫人怀胎三年生出个肉球，李靖厌恶刚出生的哪吒，认为他是个妖怪
+哪吒与众不同的童年
+@back bg2.DropFade time:1.5 wait:false
+# Day2
+Day2：拜师
+继续哪吒与众不同的童年
+太乙真人保护被李靖责骂的哪吒，认为哪吒只不过有自己独特的闪光点，愿意收哪吒为徒
+@back bg3.CircleReveal time:1.5 wait:false
+# Day3
+Day3：闹海
+海边夜叉欺负平民，哪吒打抱不平，招来敖丙拉偏架，哪吒把敖丙抽筋
+龙王找李靖要说法，李靖要哪吒道歉
+@choice 捍卫自己 goto:.a
+@choice 滑跪认错 goto:.b
+@choice 转头就跑 goto:.c
+@stop
+# a
+@char 哪吒
+
+哪吒: 不是我的错
+之后李靖听说自己跟龙王是好朋友，哪吒爽快道歉。
+李靖稍作思考，继续指责。
+@goto .Day4
+# b
+
+@char 李靖 scale:0.6
+李靖: 知道这样是错的还这么做？
+哪吒试图辩解，但李靖不听。
+@goto .Day4
+# c
+龙王水淹陈塘关
+@stop
+# Day4
+Day4：自刎
+@char 李靖 scale:0.6
+李靖和龙王依旧不依不饶
+李靖: 父母辛苦把你养大，你还给家里引来祸事
+哪吒自杀 - 还给你们
+# Day5
+@back bg5
+Day5：修庙
+太乙真人偷偷带走哪吒的尸身
+@stop
