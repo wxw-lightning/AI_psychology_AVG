@@ -166,3 +166,32 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: NewScript
+      pathPrefix: Scripts
+      guid: 0a81c27d7beed0f4e965a18125cd7fa0
+  - Id: Characters/4950d833-e4cb-440f-9cd4-4e67b151eb21
+    Resources:
+    - name: Default
+      pathPrefix: "Characters/\u54EA\u5412"
+      guid: 843d34e4b3171c24aa8e4d1e2b747c63
+  - Id: Backgrounds/a4fa0abd-98b7-4ce9-817f-9f23ddba4a47
+    Resources:
+    - name: bg1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3c7fe3cbf1d1e7243921a6ac3d3b4d18
+    - name: bg2
+      pathPrefix: Backgrounds/MainBackground
+      guid: c0ffe88b5ae83a640bd76a508c91578d
+    - name: bg3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5d91eb74b0fed77438ccf7652e1ba02e
+    - name: bg5
+      pathPrefix: Backgrounds/MainBackground
+      guid: 025a9541303d4ba4b9f0dccf36bf99c2
+  - Id: Characters/98057276-4e5a-466c-adaa-a9c5d7ca5eed
+    Resources:
+    - name: Default
+      pathPrefix: "Characters/\u674E\u9756"
+      guid: 715572463a0d8114c8205c48e68995c1
